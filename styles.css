@@ -1,0 +1,75 @@
+body {
+    background: black;
+}
+
+.post {
+    background: white;
+    max-width: 550px;
+    height: 770px;
+    margin:auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.post_imag {
+    width:100%;   
+}
+
+.post_header {
+    display: flex;
+    height: 10%;
+    align-items: center;
+}
+
+.java_logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.three_dots {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 450px;
+    padding-right: 1rem;
+}
+
+.java_text{
+    display: block;
+    justify-content: center;
+    font-family:'Roboto', sans-serif;
+    align-items: center;
+    width: 100px;
+    padding-left: 0.5rem;
+    font-size: 115%;
+}
+
+.post_body p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 0.5rem;  
+}
+
+.icons {
+    display: flex;
+    
+}
+.left_icons {
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.right_icon {
+    display: flex;
+    width: 450px;
+    justify-content: flex-end;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+}
